@@ -13712,14 +13712,51 @@ h1{
     max-height: 150px;
     border-radius: 10px;
 }
-/* Estilos para la imagen dentro de la columna */
-.box-image-static {
-	width: 100%;  /* Ocupa el 100% del contenedor de la columna */
-	height: auto; /* Mantiene la proporción original */
+/*estilo de la segunda sección*/
+
+.conoce_mas_section{
+	height: 39.5rem;
+}
+.areas_container{
+	all: unset;
+
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+.container {
+	max-width: 100%; 
+	padding: 0;
   }
   
-  /* Asegurarse de que la columna ocupe la mitad de la sección */
-  .col-lg-6 {
-	width: 50%;  /* Hace que cada columna ocupe la mitad de la sección */
-	padding: 0;  /* Evita espacio adicional por los márgenes de las columnas */
+  /* Imagen ajustada para ocupar la mitad derecha */
+  .col-image {
+	position: relative;
+	width: 50%; 
+	padding: 0; 
+	overflow: hidden; 
+  }
+  
+  .box-image-static {
+	width: 100%; 
+	height: 100%; 
+	object-fit: cover; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0px;
+  }
+ 
+  .image-container {
+	width: 50%;
+	height: 100vh; 
+	overflow: hidden; 
+	position: relative;
+  }
+  .text-container{
+	margin-top: 0px;
+	margin-left: 50px;
+  }
+  .row{
+	margin-right: -30px;
   }
