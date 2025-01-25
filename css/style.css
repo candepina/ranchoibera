@@ -182,7 +182,7 @@ h2.heading-font,
 .heading-2.heading-font {
 	font-weight: 400;
 	letter-spacing: -0.03em;
-	text-transform: capitalize;
+	
 }
 
 h3,
@@ -2713,18 +2713,8 @@ hr {
 .button-secondary.button-ujarak::before {
 	background: #151515;
 }
+/*estilo botones sección 1*/
 
-.button-white, .button-white:focus {
-	color: #151515;
-	background-color: #ffffff;
-	border-color: #ffffff;
-}
-
-.button-white:hover, .button-white:active {
-	color: #ffffff;
-	background-color: #151515;
-	border-color: #151515;
-}
 
 .button-white.button-ujarak::before {
 	background: #151515;
@@ -5736,7 +5726,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .section-special-content-body h2 {
-	text-transform: capitalize;
+	
 	font-weight: 400;
 }
 
@@ -13638,8 +13628,33 @@ html .dtp .invisible {
 	visibility: hidden;
 }
 /*cambios*/
-.container{
-	font-family: 'Poppins', sans-serif; 
+:root {
+    --accent-color: #7FB72E;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+    ;
+}
+
+.dividerPages {
+    width: 100%; /* Ancho del separador */
+    height: 5vh; /* Grosor del separador */
+    background-color: var(--accent-color);
+}
+
+/* Estilos para el Header y Sección 1 */
+.box-default{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.box-default p{
+	text-align: left;
+	font-weight: normal !important;
 }
 h1{
 	font-family: 'Poppins', sans-serif; 
@@ -13647,3 +13662,64 @@ h1{
 	text-transform: none;
 	font-size: 50px;
 }
+.container{
+	font-family: 'Poppins', sans-serif; 
+}
+.button_container{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.button {
+	all: unset;
+	background-color: var(--accent-color);
+	color: white;
+	border-radius: 15px;
+	width: 160px;
+	height: 40px;
+  
+	/* Centrado del texto */
+	display: flex;
+	justify-content: center; /* Centra horizontalmente */
+	align-items: center;    /* Centra verticalmente */
+	transition: background-color 0.3s ease, color 0.3s ease;
+  }
+.button:hover{
+	color: white;
+	background-color: #054A29;
+	border-color: #054A29;
+	cursor: pointer;
+}
+.contacto_btn, .conoce_mas_btn{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.conoce_mas_btn{
+	background-color: transparent;
+	border: 2px solid white;
+	width: 156px;
+	height: 36px;
+}
+.conoce_mas_btn:hover{
+	background-color: rgba(0, 0, 0, 0.2);
+	border: 2px solid white;
+	cursor: pointer;
+}
+.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+/* Estilos para la imagen dentro de la columna */
+.box-image-static {
+	width: 100%;  /* Ocupa el 100% del contenedor de la columna */
+	height: auto; /* Mantiene la proporción original */
+  }
+  
+  /* Asegurarse de que la columna ocupe la mitad de la sección */
+  .col-lg-6 {
+	width: 50%;  /* Hace que cada columna ocupe la mitad de la sección */
+	padding: 0;  /* Evita espacio adicional por los márgenes de las columnas */
+  }
