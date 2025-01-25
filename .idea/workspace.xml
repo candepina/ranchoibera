@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3141c01c-ca59-465f-a6d8-86530ca19706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ranchoibera.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cabana.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cabana.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/habitaciones.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/habitaciones.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.cabana.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.habitaciones.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -57,7 +55,10 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.habitaciones.html">
+    <configuration name="cabana.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ranchoibera/pages/cabana.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="habitaciones.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ranchoibera/pages/habitaciones.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -66,8 +67,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.habitaciones.html" />
+        <item itemvalue="JavaScript Debug.cabana.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +91,8 @@
       <workItem from="1737763035726" duration="1959000" />
       <workItem from="1737766775250" duration="129000" />
       <workItem from="1737800154069" duration="1380000" />
-      <workItem from="1737801555784" duration="3896000" />
+      <workItem from="1737801555784" duration="6172000" />
+      <workItem from="1737815004543" duration="1718000" />
     </task>
     <servers />
   </component>
