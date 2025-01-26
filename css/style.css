@@ -14759,3 +14759,38 @@ h1 {
 	transform: scale(1.05);
 	cursor: pointer;
 }
+/*Estilos de Actividades sección*/
+.actividades-section h2{
+	margin-top: 50px;
+}
+.actividades-card-container{
+	margin-top: 50px;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+}
+.actividades-cards{
+background-color: var(--accent-color);
+transition: transform 0.3s ease;
+}
+.actividades-cards:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+.actividades-info{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.button-container{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.actividades-btn{
+	border-radius: 20px;
+	border: solid 2px var(--accent-color);
+	color: #232323;
+	background-color: white;
+	height: 50px;
+    width: 300px;
+}
