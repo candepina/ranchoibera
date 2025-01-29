@@ -1824,7 +1824,7 @@ a[href*='mailto'] {
 }
 
 .box-event-modern {
-	
+
 	/* max-width: 670px; */
 	margin-left: auto;
 	margin-right: auto;
@@ -14609,11 +14609,11 @@ h1 {
 	width: 4rem;
 	border-radius: 9999px;
 	object-fit: cover;
-	
+
 }
 
 .stars {
-	
+
 	justify-content: center;
 	grid-gap: 0.125rem;
 	gap: 0.125rem;
@@ -14745,10 +14745,11 @@ h1 {
 	height: 270px;
 	border-radius: 10px;
 	padding: 20px 60px 20px 60px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	transition: transform 0.3s ease;
-	
+
 }
+
 .amenities-card-1:hover,
 .amenities-card-2:hover,
 .amenities-card-3:hover,
@@ -14756,50 +14757,60 @@ h1 {
 	transform: scale(1.05);
 	cursor: pointer;
 }
+
 /*Estilos de Actividades sección*/
-.actividades-section h2{
+.actividades-section h2 {
 	margin-top: 50px;
 }
-.actividades-card-container{
+
+.actividades-card-container {
 	margin-top: 50px;
 	color: white;
 	display: flex;
 	justify-content: space-around;
 }
-.actividades-cards{
-background-color: var(--accent-color);
-transition: transform 0.3s ease;
+
+.actividades-cards {
+	background-color: var(--accent-color);
+	transition: transform 0.3s ease;
 }
-.actividades-cards img{
+
+.actividades-cards img {
 	border-radius: 15px;
 }
-.actividades-cards:hover{
+
+.actividades-cards:hover {
 	transform: scale(1.05);
 	cursor: pointer;
 }
-.actividades-info{
+
+.actividades-info {
 	display: flex;
 	flex-direction: row-reverse;
 }
-.button-container{
+
+.button-container {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 50px;
 }
-.actividades-btn{
+
+.actividades-btn {
 	border-radius: 20px;
 	border: solid 2px var(--accent-color);
 	color: #232323;
 	background-color: white;
 	height: 50px;
-    width: 300px;
+	width: 300px;
 	margin-bottom: 50px;
 }
+
 /*estilos para la sección galería*/
-.galeria_section h2{
-margin-top: 50px;
+.galeria_section h2 {
+	margin-top: 50px;
 }
-.galeria_container {  
+
+.galeria_container {
 	grid-template-columns: repeat(3, 1fr);
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -14809,176 +14820,293 @@ margin-top: 50px;
 	grid-gap: 20px;
 	grid-auto-flow: row;
 	grid-template-areas:
-	  "galeria_card_1 galeria_card_2 galeria_card_3"
-	  "galeria_card_4 galeria_card_5 galeria_card_6";
-  }
-  
-  .galeria_card_1 { grid-area: galeria_card_1; }
-  
-  .galeria_card_2 { grid-area: galeria_card_2; }
-  
-  .galeria_card_3 { grid-area: galeria_card_3; }
-  
-  .galeria_card_4 { grid-area: galeria_card_4; }
-  
-  .galeria_card_5 { grid-area: galeria_card_5; }
-  
-  .galeria_card_6 { grid-area: galeria_card_6; }
-  
-  .galeria_card {
-    position: relative;
-    width: 300px; /* Ancho fijo */
-    height: 300px; /* Altura fija para que las tarjetas sean grandes y cuadradas */
-    overflow: hidden; /* Oculta cualquier desbordamiento de la imagen */
-    margin: auto; /* Centra las tarjetas horizontalmente */
+		"galeria_card_1 galeria_card_2 galeria_card_3"
+		"galeria_card_4 galeria_card_5 galeria_card_6";
+}
+
+.galeria_card_1 {
+	grid-area: galeria_card_1;
+}
+
+.galeria_card_2 {
+	grid-area: galeria_card_2;
+}
+
+.galeria_card_3 {
+	grid-area: galeria_card_3;
+}
+
+.galeria_card_4 {
+	grid-area: galeria_card_4;
+}
+
+.galeria_card_5 {
+	grid-area: galeria_card_5;
+}
+
+.galeria_card_6 {
+	grid-area: galeria_card_6;
+}
+
+.galeria_card {
+	position: relative;
+	width: 300px;
+	/* Ancho fijo */
+	height: 300px;
+	/* Altura fija para que las tarjetas sean grandes y cuadradas */
+	overflow: hidden;
+	/* Oculta cualquier desbordamiento de la imagen */
+	margin: auto;
+	/* Centra las tarjetas horizontalmente */
 
 	display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
-    grid-gap: 20px; /* Espaciado entre imágenes */
-    max-width: 90vw; /* Limita el ancho máximo al 90% del viewport */
+	grid-template-columns: repeat(3, 1fr);
+	/* Tres columnas iguales */
+	grid-gap: 20px;
+	/* Espaciado entre imágenes */
+	max-width: 90vw;
+	/* Limita el ancho máximo al 90% del viewport */
 	border-radius: 15px;
 	transition: transform 0.3s ease;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.galeria_card:hover{
+
+.galeria_card:hover {
 	transform: scale(1.05);
 	cursor: pointer;
 }
+
 .galeria_card img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* Ocupa el ancho completo del contenedor */
-    height: 100%; /* Ocupa la altura completa del contenedor */
-    object-fit: cover; /* Asegura que las imágenes mantengan su proporción sin deformarse */
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/* Ocupa el ancho completo del contenedor */
+	height: 100%;
+	/* Ocupa la altura completa del contenedor */
+	object-fit: cover;
+	/* Asegura que las imágenes mantengan su proporción sin deformarse */
 }
 
 .modal-body {
 	padding: 0;
-  }
+}
 
 /*Estilos para botón de whatsapp flotante*/
 .whatsapp-float {
-    position: fixed;
-    bottom: 20px; /* Espacio desde la parte inferior */
-    right: 20px; /* Espacio desde la derecha */
-    z-index: 1000;
-    background-color: #25D366; /* Color verde de WhatsApp */
-    border-radius: 50%;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+	position: fixed;
+	bottom: 20px;
+	/* Espacio desde la parte inferior */
+	right: 20px;
+	/* Espacio desde la derecha */
+	z-index: 1000;
+	background-color: #25D366;
+	/* Color verde de WhatsApp */
+	border-radius: 50%;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
-  .whatsapp-float:hover {
-    background-color: #22b358; /* Color al pasar el mouse */
-  }
+.whatsapp-float:hover {
+	background-color: #22b358;
+	/* Color al pasar el mouse */
+}
 
-  .whatsapp-icon {
-    width: 40px; /* Tamaño del icono */
-    height: 40px;
-  }
+.whatsapp-icon {
+	width: 40px;
+	/* Tamaño del icono */
+	height: 40px;
+}
 
-  @media (max-width: 768px) {
-    .whatsapp-float {
-      bottom: 15px; /* Ajuste para pantallas pequeñas */
-      right: 15px;
-    }
-  }
-  html {
+@media (max-width: 768px) {
+	.whatsapp-float {
+		bottom: 15px;
+		/* Ajuste para pantallas pequeñas */
+		right: 15px;
+	}
+}
+
+html {
 	scroll-behavior: smooth;
-  }
-  /*estilos del submenú*/
-  /* Ocultar el menú por defecto */
+}
+
+/*estilos del submenú*/
+/* Ocultar el menú por defecto */
 .dropdown-menu {
 	display: none;
-	position: absolute; /* Asegura que el submenú no desplace los otros elementos */
-	background-color: #fff; /* Fondo del submenú */
-	padding: 10px; /* Espaciado interno */
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto flotante */
+	position: absolute;
+	/* Asegura que el submenú no desplace los otros elementos */
+	background-color: #fff;
+	/* Fondo del submenú */
+	padding: 10px;
+	/* Espaciado interno */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	/* Sombra para un efecto flotante */
 	z-index: 1000;
-  }
-  
-  /* Mostrar el menú al pasar el mouse */
-  .rd-nav-item.dropdown:hover .dropdown-menu {
+}
+
+/* Mostrar el menú al pasar el mouse */
+.rd-nav-item.dropdown:hover .dropdown-menu {
 	display: block;
-  }
-  
-  /* Estilo adicional para los enlaces del submenú */
-  .dropdown-menu li a {
+}
+
+/* Estilo adicional para los enlaces del submenú */
+.dropdown-menu li a {
 	display: block;
 	padding: 5px 15px;
 	color: #333;
 	text-decoration: none;
-  }
-  
-  .dropdown-menu li a:hover {
-	background-color: #f5f5f5; /* Fondo al pasar el mouse sobre un enlace */
-	color: #007bff; /* Cambiar color del texto */
-  }
+}
 
-  /*diseño responsive*/
-  @media (max-width: 576px) {
+.dropdown-menu li a:hover {
+	background-color: #f5f5f5;
+	/* Fondo al pasar el mouse sobre un enlace */
+	color: #007bff;
+	/* Cambiar color del texto */
+}
+
+/*diseño responsive*/
+@media (max-width: 576px) {
 	#form-output-global {
 		left: 30px;
 	}
-	h1{
-		font-size: 2em!important;
+
+	h1 {
+		font-size: 2em !important;
 	}
-	p{
-		font-size: 1em!important;
+
+	p {
+		font-size: 1em !important;
 	}
-	#home{
-		padding: 1em!important;
+
+	#home {
+		padding: 1em !important;
 	}
-	.box-default-decor+.box-default-text{
+
+	.box-default-decor+.box-default-text {
 		margin: 20px;
 	}
+
 	.box-default p {
 		text-align: center;
 	}
-	.button_container{
+
+	.button_container {
 		justify-content: space-around;
 		margin-bottom: 50px;
 	}
+
 	/*sección 2*/
 	.text-container {
-        margin-left: 0;  /* Asegura que el texto no tenga margen extra */
-        font-size: 14px;  /* Ajusta el tamaño del texto */
-    }
-
-    .image-container img {
-        object-fit: cover;  /* Asegura que la imagen cubra bien el espacio */
-    }
-	.areas_container {
-		flex-direction:column;
-		justify-content: space-evenly;
-		align-items:center;
+		margin-left: 0;
+		/* Asegura que el texto no tenga margen extra */
+		font-size: 14px;
+		/* Ajusta el tamaño del texto */
 	}
-	.conoce_mas_section{
+
+	.image-container img {
+		object-fit: cover;
+		/* Asegura que la imagen cubra bien el espacio */
+	}
+
+	.areas_container {
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	.conoce_mas_section {
 		height: 50rem;
 	}
+
 	.box-image-static {
 		height: 60%;
 	}
-	.image-container{
+
+	.image-container {
 		width: 100%;
 	}
-	.testimonio_title h2{
+
+	h2 {
 		font-size: 40px;
 	}
-	.testimonio_title p{
+
+	.testimonio_title p {
 		margin: 20px;
 		width: 90%;
 	}
-	.testimoniales-container{
+
+	.testimoniales-container {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		row-gap: 20px;
 	}
 
+	.contacto-cards-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0px;
+		row-gap: 20px;
+		margin-top: 50px;
+	}
+
+	.contacto-card-1,
+	.contacto-card-2,
+	.contacto-card-3 {
+
+		height: 240px;
+		width: 400px;
+	}
+
+	.contacto-card-1 p,
+	.contacto-card-2 p,
+	.contacto-card-3 p {
+		margin: 0px;
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+
+	}
+
+	.contacto-card-3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	/*amenities responsive*/
+	.amenities-section {
+		margin-top: 30rem;
+		height: 90rem;
+	}
+
+	.amenities-container {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 50px;
+	}
+
+	.amenities-card-1 p,
+	.amenities-card-2 p,
+	.amenities-card-3 p,
+	.amenities-card-4 p {
+		margin: 0px;
+		padding: 0px;
+		
+
+	}
+
+	.amenities-card-1,
+	.amenities-card-2,
+	.amenities-card-3,
+	.amenities-card-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
-  
