@@ -14428,6 +14428,9 @@ html .dtp .invisible {
 }
 
 /*cambios*/
+.card-text{
+	font-weight: bold;
+}
 :root {
 	--accent-color: #7FB72E;
 }
@@ -15108,5 +15111,19 @@ html {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	/*actividades responsive*/
+	.actividades-card-container{
+		flex-direction: column;
+		align-items: center;
+		row-gap: 20px;
+	}
+	.card-body p{
+		margin: 0px;
+		width: 240px;
+
+	}
+	.actividades-info{
+		width: 240px;
 	}
 }
