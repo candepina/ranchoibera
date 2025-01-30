@@ -1,0 +1,35 @@
+:root {
+    --accent-color: #7FB72E;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: capitalize!important;
+}
+
+.dividerPages {
+    width: 100%; /* Ancho del separador */
+    height: 5vh; /* Grosor del separador */
+    background-color: var(--accent-color);
+}
+
+/* Header */
+.rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10px;
+}
+
+.button-white:hover, .button-white:active {
+    color: #ffffff;
+    background-color: var(--accent-color);
+    border-width: 0;
+}
+
+.button-white {
+    color: black;
+}
