@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3141c01c-ca59-465f-a6d8-86530ca19706" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cabana.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cabana.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/habitaciones.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/habitaciones.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -103,7 +102,9 @@
       <workItem from="1737844507929" duration="91000" />
       <workItem from="1737886399388" duration="167000" />
       <workItem from="1737897468727" duration="884000" />
-      <workItem from="1737898938135" duration="1529000" />
+      <workItem from="1737898938135" duration="1962000" />
+      <workItem from="1737928187316" duration="109000" />
+      <workItem from="1738246554125" duration="661000" />
     </task>
     <servers />
   </component>
