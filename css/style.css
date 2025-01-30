@@ -14428,9 +14428,10 @@ html .dtp .invisible {
 }
 
 /*cambios*/
-.card-text{
+.card-text {
 	font-weight: bold;
 }
+
 :root {
 	--accent-color: #7FB72E;
 }
@@ -14592,9 +14593,10 @@ h1 {
 
 /*estilos testimonials*/
 
-.testimonio_title{
+.testimonio_title {
 	height: 200px;
 }
+
 .card {
 	background-color: rgba(243, 244, 246, 1);
 	padding: 2rem;
@@ -14993,7 +14995,7 @@ html {
 	}
 
 	.box-default-decor+.box-default-text {
-		margin: 20px;
+		width: 100%;
 	}
 
 	.box-default p {
@@ -15044,7 +15046,8 @@ html {
 		margin: 20px;
 		width: 90%;
 	}
-	.testimonio_title h2{
+
+	.testimonio_title h2 {
 		margin-top: 20px;
 	}
 
@@ -15107,7 +15110,7 @@ html {
 	.amenities-card-4 p {
 		margin: 0px;
 		padding: 0px;
-		
+
 
 	}
 
@@ -15119,32 +15122,51 @@ html {
 		flex-direction: column;
 		align-items: center;
 	}
+
 	/*actividades responsive*/
-	.actividades-card-container{
+	.actividades-card-container {
 		flex-direction: column;
 		align-items: center;
 		row-gap: 20px;
 	}
-	.card-body p{
+
+	.card-body p {
 		margin: 0px;
 		width: 240px;
 
 	}
-	.actividades-info{
+
+	.actividades-info {
 		width: 240px;
 	}
+
 	.row {
 		margin-right: 0px;
 	}
-	
-	.contacto-section .wor-outer{
+
+	.contacto-section .wor-outer {
 		margin-top: 0px;
 	}
-	.galeria_container{
+
+	.galeria_container {
 		display: flex;
 		flex-direction: column;
 	}
-	.row{
+
+	.row {
 		padding-right: 0px !important;
+	}
+
+	.box-default-title {
+		width: 100%;
+	}
+
+	.big .box-default-text {
+		width: 100%;
+	}
+
+	.contacto_btn,
+	.conoce_mas_btn {
+		margin: 15px 5px 2px 5px;
 	}
 }
