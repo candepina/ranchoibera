@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3141c01c-ca59-465f-a6d8-86530ca19706" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/img/cabana/galeria/exterior-rancho.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cabana.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cabana.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/habitaciones.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/habitaciones.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\agusm\Downloads\ranchoibera\pages\img\cabana\galeria" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.habitaciones.html">
     <configuration name="about-us.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ranchoibera/about-us.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -69,10 +77,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.cabana.html" />
-        <item itemvalue="JavaScript Debug.about-us.html" />
         <item itemvalue="JavaScript Debug.habitaciones.html" />
+        <item itemvalue="JavaScript Debug.cabana.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.about-us.html" />
       </list>
     </recent_temporary>
   </component>
