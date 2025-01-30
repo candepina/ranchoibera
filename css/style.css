@@ -15170,3 +15170,18 @@ html {
 		margin: 15px 5px 2px 5px;
 	}
 }
+.tooltip-inner {
+	max-width: 450px !important;
+	text-align: left;
+	display:flex;
+	justify-content: space-between;
+}
+.tooltip-inner div {
+	margin: 2px;
+}
+.tooltip-inner div h6 {
+	font-family: "Poppins", sans-serif;
+}
+.tooltip-inner div p {
+	text-justify: auto;
+}
